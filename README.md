@@ -50,6 +50,10 @@ Install with `pip`:
 
     pip install ./my-app-demo
 
+Install with `pip` from live GitHub repo:
+
+    pip install --upgrade https://github.com/shawnbrown/my-app-demo/archive/main.zip
+
 To install without `pip` (harder to uninstall):
 
     cd my-app-demo
