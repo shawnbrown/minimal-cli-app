@@ -18,6 +18,25 @@ This demo uses the following directory structure:
     ├── setup.cfg
     └── setup.py
 
+Each file in the above structure serves a specific function:
+
+**`bin/my-app`:** Terminal command that gets installed (the file's `#!python`
+is replaced with the appropriate shebang on install). Users can run this
+command simply by typing "my-app" at the command line.
+
+**`data/my-app.desktop`:** Desktop entry file provides a clickable icon for
+Linux desktop environments (GNOME, KDE, etc.).
+
+**`my-app/__init__.py`:** Standard Python package init file defines the
+importable package objects.
+
+**`my-app/submodule.py`:** Sub-module containing package code that implements
+application logic.
+
+**`setup.cfg`:** Setup configuration file.
+
+**`setup.py`:** Setup script.
+
 
 The setup.py File
 -----------------
