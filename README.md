@@ -7,7 +7,7 @@ Project Structure
 
 This demo uses the following directory structure:
 
-    my_app
+    my-app-demo
     ├── bin
     │   └── my-app
     ├── data
