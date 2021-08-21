@@ -15,7 +15,6 @@ This demo uses the following directory structure:
     ├── my_app
     │   ├── __init__.py
     │   └── submodule.py
-    ├── README.md
     ├── setup.cfg
     └── setup.py
 
