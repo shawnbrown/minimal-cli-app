@@ -7,12 +7,12 @@ Project Structure
 
 This demo uses the following directory structure:
 
-    my-app-demo
-    ├── bin
+    my-app-demo/
+    ├── bin/
     │   └── my-app
-    ├── data
+    ├── data/
     │   └── my-app.desktop
-    ├── my_app
+    ├── my_app/
     │   ├── __init__.py
     │   └── submodule.py
     ├── setup.cfg
