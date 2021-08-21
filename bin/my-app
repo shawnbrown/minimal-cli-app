@@ -1,0 +1,8 @@
+#!python
+import sys
+import my_app
+
+
+if __name__ == '__main__':
+    print(my_app.my_func())
+    sys.exit(0)

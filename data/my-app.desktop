@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=My App
+Icon=utilities-terminal
+Exec=gnome-terminal -- bash -c "my_app;bash"
+
